@@ -20,5 +20,5 @@ jobs:
       with:       
        username: ${{ secrets.DOCKER_HUB_USERNAME }} 
        password:  ${{ secrets.DOCKERHUB_TOKEN }}
-       repository: kiarabici/fti:latest       
+       repository: kiarabici/fti       
        tags: ${{github.run_number}}
