@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: lmilt95/fti:latest
+        image: kiarabivi/fti:latest
         imagePullPolicy: Always
         securityContext:
           allowPrivilegeEscalation: false
